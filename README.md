@@ -1,9 +1,31 @@
-<h1 align="center">Hi 👋, I'm niromi</h1>
-<h3 align="center">srilanka</h3>
+ Warehouse Inventory Management System
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+ Description
+This is a Java-based console application that manages warehouse inventory using Java Collections Framework.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> </p>
+ Features
+- Add items
+- Remove items
+- Update quantity
+- Search by ID and Name
+- Display all items
+ Technologies Used
+- Java
+- HashMap (Collections Framework)
+
+ How to Run
+1. Compile all files:
+   javac *.java
+
+2. Run:
+   java Warehouse
+
+Sample Output
+=== Warehouse Menu ===
+1. Add Item
+2. Remove Item
+3. Update Quantity
+4. Search by ID
+5. Search by Name
+6. Display All Items
+7. Exit
