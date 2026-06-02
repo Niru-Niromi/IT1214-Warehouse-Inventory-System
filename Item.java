@@ -1,10 +1,12 @@
+//manage variables using getter and setter methods ,ensuring encapsulation and data integrity in the item class.
+
 public class Item {
     private String itemId;
     private String itemName;
     private int quantity;
     private double price;
 
-    // Constructor
+    
     public Item(String itemId, String itemName, int quantity, double price) {
         this.itemId = itemId;
         this.itemName = itemName;
@@ -12,7 +14,7 @@ public class Item {
         this.price = price;
     }
 
-    // Getters
+    
     public String getItemId() {
         return itemId;
     }
@@ -29,7 +31,7 @@ public class Item {
         return price;
     }
 
-    // Setters
+    
     public void setItemName(String itemName) {
         this.itemName = itemName;
     }
@@ -42,7 +44,7 @@ public class Item {
         this.price = price;
     }
 
-    // toString method
+  
     @Override
     public String toString() {
         return "ID: " + itemId +

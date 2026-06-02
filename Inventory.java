@@ -1,3 +1,5 @@
+//manage the inventory of items in the warehouse ,allowing users to add,remove,update,search, and display items in the inventory.
+
 import java.util.*;
 
 public class Inventory {
@@ -7,7 +9,6 @@ public class Inventory {
         items = new HashMap<>();
     }
 
-    // Add Item
     public void addItem(Item item) {
         if (items.containsKey(item.getItemId())) {
             System.out.println("Item already exists!");
@@ -17,7 +18,7 @@ public class Inventory {
         }
     }
 
-    // Remove Item
+  
     public void removeItem(String itemId) {
         if (items.remove(itemId) != null) {
             System.out.println("Item removed.");
@@ -26,7 +27,7 @@ public class Inventory {
         }
     }
 
-    // Update Quantity
+    
     public void updateQuantity(String itemId, int quantity) {
         Item item = items.get(itemId);
         if (item != null) {
@@ -37,7 +38,7 @@ public class Inventory {
         }
     }
 
-    // Search by ID
+   
     public void searchById(String itemId) {
         Item item = items.get(itemId);
         if (item != null) {
@@ -47,7 +48,7 @@ public class Inventory {
         }
     }
 
-    // Search by Name
+    
     public void searchByName(String name) {
         boolean found = false;
         for (Item item : items.values()) {
@@ -61,7 +62,7 @@ public class Inventory {
         }
     }
 
-    // Display All
+   
     public void displayAll() {
         if (items.isEmpty()) {
             System.out.println("Inventory is empty.");

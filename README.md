@@ -1,6 +1,7 @@
+ //README.md
  Warehouse Inventory Management System
 
- Description
+ Descriptions
 This is a Java-based console application that manages warehouse inventory using Java Collections Framework.
 
  Features
