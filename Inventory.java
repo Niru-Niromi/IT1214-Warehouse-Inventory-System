@@ -1,4 +1,4 @@
-//manage the inventory of items in the warehouse ,allowing users to add,remove,update,search, and display items in the inventory.
+//manage the inventory of items in the warehouse ,allowing users to add, and remove,update,search, and display items in the inventory.
 
 import java.util.*;
 

@@ -22,7 +22,7 @@ This is a Java-based console application that manages warehouse inventory using 
    java Warehouse
 
 Sample Output
-=== Warehouse Menu ===
+=== Warehouse Menu ====
 1. Add Item
 2. Remove Item
 3. Update Quantity

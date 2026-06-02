@@ -1,4 +1,4 @@
-//manage variables using getter and setter methods ,ensuring encapsulation and data integrity in the item class.
+//manage the variables using getter and setter methods ,ensuring encapsulation and data integrity in the item class.
 
 public class Item {
     private String itemId;
